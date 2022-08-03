@@ -1,6 +1,6 @@
 ---
 apiVersion: apps/v1
-kin:d: Deployment
+kind: Deployment
 metadata:
    labels:
       app: nginx-deployment
