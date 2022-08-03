@@ -4,6 +4,7 @@ kin:d: Deployment
 metadata:
    labels:
       app: nginx-deployment
+   namespace: default
 spec:
    replicas: 1
    selector:
